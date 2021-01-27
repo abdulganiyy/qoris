@@ -1,0 +1,30 @@
+.Input {
+  width: 100%;
+  padding: 10px;
+}
+
+.Input label {
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 5px 0;
+  color: #ccc;
+}
+
+.InputElem {
+  outline: none;
+  display: block;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.InputElem:focus {
+  outline: none;
+  background-color: #ccc;
+}
+
+.Input textarea {
+  height: 200px;
+}

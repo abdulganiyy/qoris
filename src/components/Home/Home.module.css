@@ -1,0 +1,75 @@
+.AboutContainer {
+  background-color: #ccc;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.AboutHeadings {
+  margin: 0 auto;
+  width: 80%;
+  box-sizing: border-box;
+  color: #003300;
+}
+
+.AboutHeadings h3 {
+  margin: 0;
+  padding: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-bottom: 4px solid #003300;
+}
+
+.AboutUs {
+  display: flex;
+  margin: 0 auto;
+  padding: 25px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.AboutUs .Item {
+  width: 300px;
+  background-color: #003300;
+  color: #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.ServicesContainer {
+  margin: 0;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.ServicesContainer h3 {
+  margin: 0;
+}
+
+.Services {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Services div {
+  width: 300px;
+  padding: 0 16px;
+  color: #003300;
+  text-align: left;
+}
+
+@media (max-width: 750px) {
+  .AboutUs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .AboutUs .Item {
+    width: 300px;
+    margin-bottom: 16px;
+  }
+}

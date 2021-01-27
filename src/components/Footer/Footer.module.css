@@ -1,0 +1,32 @@
+.Container {
+  display: flex;
+  padding: 20px;
+  background-color: #202020;
+}
+
+.MapContainer {
+  width: 60%;
+}
+
+.MapContainer h4 {
+  margin: 0;
+  padding: 5px;
+  color: #ccc;
+}
+
+.Container ul {
+  list-style: none;
+  text-align: left;
+  color: #ccc;
+}
+
+@media (max-width: 750px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Container ul {
+    text-align: center;
+  }
+}

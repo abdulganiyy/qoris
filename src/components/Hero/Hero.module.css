@@ -1,0 +1,36 @@
+.Hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: url("../../assets/images/hero-bg-img.jpg") no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  .Hero {
+    height: 500px;
+    background-size: cover;
+  }
+
+  /* .HeroContent h1 {
+    display: none;
+  } */
+}
+
+.HeroContent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 77, 32, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.HeroContent p {
+  font-weight: bold;
+  font-size: 20px;
+}

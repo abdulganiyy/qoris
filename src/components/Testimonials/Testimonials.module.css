@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.TestimonialsContainer {
+  margin: 0;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: "Lato", sans-serif;
+}
+
+.TestimonialsContainer h2 {
+  margin: 0;
+  padding: 25px;
+}
+
+.Testimonials {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Testimonial {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  max-width: 100%;
+  width: 400px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .Testimonial {
+    width: 100%;
+  }
+}
+
+.TestimonialBody {
+  padding: 40px;
+}
+
+.TestimonialBody p {
+  color: #555;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.TestimonialBbody .FaRight {
+  color: #eee;
+  font-size: 40px;
+  float: right;
+}
+
+.TestimonialFooter {
+  background-color: #686de0;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.TestimonialFooter img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  height: 120px;
+  width: 120px;
+  margin-top: -100px;
+}
